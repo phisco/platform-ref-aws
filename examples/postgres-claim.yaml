@@ -4,6 +4,8 @@ metadata:
   name: platform-ref-aws-db-postgres
 spec:
   parameters:
+    region: us-east-1
+    deletionPolicy: Delete
     engine: postgres
     engineVersion: "13.7"
     storageGB: 5
